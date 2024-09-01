@@ -27,3 +27,4 @@
 Console.Write("Введите строку, разделенную запятыми:");
 string? arrayElement = Console.ReadLine();
 string[] arraySimvol = arrayElement.Split(',');
+string[] result = GetArrayThreeSimvol(arraySimvol);
