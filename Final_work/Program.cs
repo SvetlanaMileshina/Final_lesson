@@ -28,3 +28,4 @@ Console.Write("Введите строку, разделенную запяты�
 string? arrayElement = Console.ReadLine();
 string[] arraySimvol = arrayElement.Split(',');
 string[] result = GetArrayThreeSimvol(arraySimvol);
+Console.WriteLine($"Исходный массив:[{arrayElement}] -> Массив с длинной элемента <= 3м символам : [{string.Join(",", result)}]");
